@@ -1,0 +1,4 @@
+[submodule "modules/chessmanager-analysis"]
+	path = modules/chessmanager-analysis
+	url = https://github.com/matlewan/chessmanager-analysis
+	branch = main
