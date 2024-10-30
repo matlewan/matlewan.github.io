@@ -33,3 +33,4 @@ Docelowo będą tu linki do wykonanych modułów
 - [architektura backend](docs/architecture.md)
 - [utworzenie aplikacji frontend](docs/frontend.md)
 - [utworzenie aplikacji backend](docs/backend.md)
+
