@@ -12,6 +12,8 @@ Zadaniem tego modułu jest:
 - wygenerowanie w pełni statycznej strony internetowej na podstawie kodu projektów frontendowych
 - wygenerowanie obrazu dockerowego stanowiącego API na podstawie kodu projektów backendowych
 
+[Github workflows: quickstart](https://docs.github.com/en/actions/writing-workflows/quickstart)
+
 ### Lokalizacja modułów
 
 Adres każdego z modułów frontendowych to:<br>
