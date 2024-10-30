@@ -1,7 +1,3 @@
-[submodule "modules/chessmanager-analysis"]
-	path = modules/chessmanager-analysis
-	url = https://github.com/matlewan/chessmanager-analysis
-	branch = main
 [submodule "modules/my-test"]
 	path = modules/my-test
 	url = https://github.com/matlewan/my-test
