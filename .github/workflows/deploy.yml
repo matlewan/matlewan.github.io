@@ -23,5 +23,5 @@ jobs:
             git -c "http.extraheader=$auth_header" -c protocol.version=2 submodule update --init --force --recursive --depth=1
       - name: List files in the repository
         run: |
-          ls ${{ github.workspace }}/modules/my-test
+          ls ${{ github.workspace }}/modules/chessmanager-analysis
       - run: echo "🍏 This job's status is ${{ job.status }}."
