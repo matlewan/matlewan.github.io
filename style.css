@@ -27,6 +27,15 @@ a {
 a:hover {
     text-decoration: underline;
 }
+.icon {
+    background-color: white;
+}
+footer {
+    position: fixed;
+    bottom: 0;
+    right: 0;
+    margin: 0 20px;
+}
 
 .project a {
     font-weight: bold;
