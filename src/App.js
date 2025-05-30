@@ -3,22 +3,32 @@ import './App.css';
 
 function App() {
   return (
-    <div className="App">
-      <header className="App-header">
-        <img src={logo} className="App-logo" alt="logo" />
-        <p>
-          Edit <code>src/App.js</code> and save to reload.
-        </p>
-        <a
-          className="App-link"
-          href="https://reactjs.org"
-          target="_blank"
-          rel="noopener noreferrer"
-        >
-          Learn React
-        </a>
+    <>
+      <header>
+        <h1>Mateusz Lewandowski</h1>
+        <p>Cześć, nazywam się Mateusz Lewandowski i jestem programistą z kilkuletnim doświadczeniem. Witam Cię na mojej prywatnej stronie i zapraszam do zwiedzania.</p>
       </header>
-    </div>
+      <main>
+        <hr />
+          <h2>Projekty</h2>
+          <div class="project-group">
+            <div class="project">
+              <a href="/pomysl-grandprix/">Pomysł GrandPrix</a>
+              <p>analiza cyklicznych turniejów szachowych rozgrywanych w Poznaniu</p>
+            </div>
+          </div>
+      </main>
+      <footer>
+        <div class="icons">
+          <a href="https://github.com/matlewan">
+            <img width="40px" class="icon" src="assets/github.svg" alt="github" />
+          </a>
+          <a href="mailto:matlewan7@gmail.com">
+            <img width="40px" class="icon" src="assets/gmail.svg" alt="github" />
+          </a>
+        </div>
+      </footer>
+    </>
   );
 }
 
