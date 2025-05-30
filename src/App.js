@@ -1,4 +1,3 @@
-import logo from './logo.svg';
 import './App.css';
 
 function App() {
@@ -6,15 +5,15 @@ function App() {
     <>
       <header>
         <h1>Mateusz Lewandowski</h1>
-        <p>Cześć, nazywam się Mateusz Lewandowski i jestem programistą z kilkuletnim doświadczeniem. Witam Cię na mojej prywatnej stronie i zapraszam do zwiedzania.</p>
+        <p>Cześć, nazywam się Mateusz Lewandowski i witam Cię na mojej stronie domowej :)</p>
       </header>
       <main>
         <hr />
           <h2>Projekty</h2>
           <div class="project-group">
             <div class="project">
-              <a href="/pomysl-grandprix/">Pomysł GrandPrix</a>
-              <p>analiza cyklicznych turniejów szachowych rozgrywanych w Poznaniu</p>
+              <a href="/pomysl-grandprix/">Pomysł Grand Prix</a>
+              <p>Analiza cyklicznych turniejów szachowych rozgrywanych w Poznaniu</p>
             </div>
           </div>
       </main>
