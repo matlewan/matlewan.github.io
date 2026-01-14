@@ -21,11 +21,15 @@ function About() {
 function Projects() {
   return (
     <div className="projects">
-      <h2>Projekty</h2>
+      {/* <h2>Projekty</h2> */}
       <div className="project-group">
         <div className="project">
           <a href="/pomysl-grandprix/">Pomysł Grand Prix</a>
           <p>Analiza cyklicznych turniejów szachowych rozgrywanych w Poznaniu</p>
+        </div>
+        <div className="project">
+          <a href="/fide-ratings/">Moja Lista FIDE</a>
+          <p>Prosta aplikacja do tworzenia własnej listy rankingowej FIDE (szachy)</p>
         </div>
       </div>
     </div>
@@ -33,15 +37,15 @@ function Projects() {
 }
 
 function App() {
-  const [Container, setContainer] = useState(<About />);
+  const [Container, setContainer] = useState(<Projects />);
   return (
     <>
 
       <header>
         <nav className="navbar">
           <ul className="navbar-links">
-            <li onClick={() => setContainer(<About />)}>O mnie</li>
             <li onClick={() => setContainer(<Projects />)}>Projekty</li>
+            {/* <li onClick={() => setContainer(<About />)}>O mnie</li> */}
           </ul>
         </nav>
       </header>
